@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#header{
+    display: flex;
+
+    background-color: rgb(223, 223, 223);
+    justify-content: space-around;
+    align-items: center;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px 18px;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7e7e7e; /* Cor de destaque ao passar o mouse */
+    font-style: italic;
+}
+
+
+
+
+.container{
+    
+    width: 50px;
+    height: 400px;
+    padding: 0px;
+   
+}
+.texto {
+    margin: 50px;
+    width: 50%; /* Define a largura da div */
+    background-color: white; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0 auto;
+    
+    background: rgba(75, 192, 192, 1);
+    background: linear-gradient(to bottom, rgba(35,46,146,1) 25%, rgba(131,21,21,1) 100%);
+    
+    }
+   
+    h1 {
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    text-align: center;
+    }
+   
+    h2 {
+    font-family: Arial;
+    font-size: 10pt;
+    text-align: center;
+    }
+   
+    table,
+    th,
+    td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #f3f6f5;
+    }
+   
+    .div-lado {
+    display: inline-block;
+    vertical-align: top;
+    
+    padding: 25px;
+    margin-left: 200px;
+    }
+   
+    .div-g {
+    width: 60%;
+    }
+   
+    .div-t {
+    width: 25%;
+    }
+   
+    .btn-refresh {
+        background: #9958d6;
+        border-radius: 6px;
+        padding: 10px;
+        cursor: pointer;
+        color: rgb(62, 53, 53);
+        border: none;
+        font-size: 12px;
+        
+      }
+      .lado{
+        margin-left: 470px;
+      }
+    
+    .descricao{
+        width: 50px;
+        height: 20px;
+        padding: 0px;
+    }
+    .texto {
+        margin-top: 90px;
+        margin-left: 100px;
+        width: 50%; /* Define a largura da div */
+        background-color: white; /* Fundo branco */
+        padding: 20px; /* Espaçamento interno */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+        border-radius: 1rem;
+    }
+    .sobrediv{
+        background-color: white;
+        margin: 20px;
+        height: 85vh;
+        text-align: center;
+        padding-top: 50px;
+        border-radius: 0.5rem;
+    
+    }
+    .background{
+    
+        margin-left: 450px;
+        margin-right: 450px;
+        margin-top: 65px;
+        background-color: white;
+        height: 80vh;
+        padding-top: 100px;
+        border-radius: 0.5rem;
+        text-align: center;
+       
+        
+        
+    }
